@@ -33,7 +33,9 @@ By Elahe Dastan
 
 Different types of issues that can cause our model's performance to decay (**model drift**).
 
-### Data Drift
+---
+
+## Data Drift
 
 **Data drift**, also known as feature drift or covariate shift, occurs when the **distribution** of
 the _production data_ is different from the _training data_.
