@@ -92,6 +92,18 @@ inputs and outputs are no longer relevant_. Concept drift can be something that 
 
 ---
 
+## Identifying drift
+
+The standard approach to identifying drift is to measure model performance (accuracy or otherwise)
+or to examine or measure differences in training and deployment distributions of:
+
+- Predicted outputs
+- Ground truth
+- Individual input features
+- Joint input features
+
+---
+
 ## Locating drift
 
 - **Reference window**: the set of points to compare production data distributions with to identify drift.
