@@ -94,8 +94,8 @@ inputs and outputs are no longer relevant_. Concept drift can be something that 
 
 ## Identifying drift
 
-The standard approach to identifying drift is to measure model performance (accuracy or otherwise)
-or to examine or measure differences in training and deployment distributions of:
+The standard approach to identifying drift is to **measure model performance (accuracy or otherwise)**
+or to _examine or measure differences in training and deployment distributions_ of:
 
 - Predicted outputs
 - Ground truth
