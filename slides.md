@@ -33,6 +33,10 @@ By Elahe Dastan
 
 Different types of issues that can cause our model's performance to decay (**model drift**).
 
+<p class="text-center">
+<q>Drift is a key issue because machine learning often relies on a key assumption: <em>the past == the future</em>.</q>
+</p>
+
 <div class="flex flex-row">
     <img alt="data-drift" src="/data-drift.webp" class="rounded shadow h-60 basis-1/4" />
     <div class="basis-1/2" ></div>
