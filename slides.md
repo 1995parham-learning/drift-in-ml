@@ -90,5 +90,9 @@ inputs and outputs are no longer relevant_. Concept drift can be something that 
 
 ## Locating drift
 
-- Reference window: the set of points to compare production data distributions with to identify drift.
-- Test window: the set of points to compare with the reference window to determine if drift has occurred.
+- **Reference window**: the set of points to compare production data distributions with to identify drift.
+- **Test window**: the set of points to compare with the reference window to determine if drift has occurred.
+
+Since we're dealing with online drift detection (i.e. detecting drift in live production
+data as opposed to past batch data),
+we can employ either a _fixed or sliding window_ approach to identify our set of points for comparison.
