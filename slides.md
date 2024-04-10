@@ -41,7 +41,7 @@ Different types of issues that can cause our model's performance to decay (**mod
 
 ---
 
-## Data Drift
+## Data drift
 
 **Data drift**, also known as feature drift or covariate shift, occurs when the **distribution** of
 the _production data_ is different from the _training data_.
@@ -59,3 +59,36 @@ It's important to inspect the drifted data and trace it back along its pipeline
 to identify when and where the drift was introduced.
 
 ---
+
+## Target drift
+
+Besides just the input data changing, as with data drift, we can also experience drift in our outcomes.
+This can be:
+
+- A shift in the distributions
+- Removal or addition of new classes with categorical tasks
+
+Though _retraining can mitigate the performance decay caused target drift_, it can often be avoided with proper
+**inter-pipeline communication** about new classes, schema changes, etc.
+
+> Re-training data can lead to model drift. This can be mitigated by enabling inter-pipeline communication
+> for new classes, schema changes, and similar updates.
+
+---
+
+## Concept drift
+
+Besides the input and output data drifting, we can have **the actual relationship between them drift as well**.
+This concept drift renders our model ineffective because the patterns it learned to _map between the original
+inputs and outputs are no longer relevant_. Concept drift can be something that occurs in various patterns:
+
+- Gradually over a period of time
+- Abruptly as a result of an external event
+- Periodically as a result of recurring event
+
+---
+
+## Locating drift
+
+- Reference window: the set of points to compare production data distributions with to identify drift.
+- Test window: the set of points to compare with the reference window to determine if drift has occurred.
