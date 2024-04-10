@@ -1,6 +1,6 @@
 ---
 theme: seriph
-background: https://cover.sli.dev
+background: /background.jpg
 title: Drift in Machine Learning
 info: |
   Review on drift in machine learning
@@ -32,6 +32,12 @@ By Elahe Dastan
 ## Drift
 
 Different types of issues that can cause our model's performance to decay (**model drift**).
+
+<div class="flex flex-row">
+    <img alt="data-drift" src="/data-drift.webp" class="rounded shadow h-60 basis-1/4" />
+    <div class="basis-1/2" ></div>
+    <img alt="feature-drift" src="/feature-drift.png" class="rounded shadow h-60 basis-1/4" />
+</div>
 
 ---
 
