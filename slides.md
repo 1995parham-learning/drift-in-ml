@@ -3,7 +3,7 @@ theme: seriph
 background: https://cover.sli.dev
 title: Drift in Machine Learning
 info: |
-  Review on drifting in machine learning
+  Review on drift in machine learning
   By Elahe Dastan
 class: text-center
 highlighter: shiki
@@ -16,7 +16,7 @@ layout: cover
 hideInToc: true
 ---
 
-# Review on drifting in machine learning
+# Review on drift in machine learning
 
 By Elahe Dastan
 
