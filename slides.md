@@ -38,8 +38,15 @@ Different types of issues that can cause our model's performance to decay (**mod
 **Data drift**, also known as feature drift or covariate shift, occurs when the **distribution** of
 the _production data_ is different from the _training data_.
 
-The actual cause of drift can be attributed to natural changes in the real-world but also to
-systemic issues such as missing data, pipeline errors, schema changes, etc.
+The actual cause of drift can be attributed:
+
+- Natural changes in the real-world
+- Systemic issues such as:
+  - Missing data
+  - Pipeline errors
+  - Schema changes
+  - etc.
+
 It's important to inspect the drifted data and trace it back along its pipeline
 to identify when and where the drift was introduced.
 
