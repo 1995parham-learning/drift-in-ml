@@ -102,6 +102,12 @@ or to _examine or measure differences in training and deployment distributions_ 
 - Individual input features
 - Joint input features
 
+However, in practice they have serious challenges that make measuring drift a hard problem.
+
+- Curse of dimensionality
+- Lack of ground truth
+- Inconsequential drift
+
 ---
 
 ## Locating drift
