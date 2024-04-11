@@ -19,3 +19,6 @@ Edit the [slides.md](./slides.md) to see the changes.
 Learn more about Slidev on [documentations](https://sli.dev/).
 
 ## References
+
+- https://towardsdatascience.com/drift-in-machine-learning-e49df46803a
+- https://madewithml.com/courses/mlops/monitoring
