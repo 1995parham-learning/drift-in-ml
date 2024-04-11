@@ -1,4 +1,12 @@
-# Welcome to [Slidev](https://github.com/slidevjs/slidev)!
+<h1 align="center">Drift in Machine Learning</h1>
+
+<p align="center">
+  <img alt="Drifting" src="./public/background.png">
+</p>
+
+## Introduction
+
+## Welcome to [Slidev](https://github.com/slidevjs/slidev)!
 
 To start the slide show:
 
@@ -9,3 +17,5 @@ To start the slide show:
 Edit the [slides.md](./slides.md) to see the changes.
 
 Learn more about Slidev on [documentations](https://sli.dev/).
+
+## References
