@@ -1,7 +1,7 @@
 <h1 align="center">Drift in Machine Learning</h1>
 
 <p align="center">
-  <img alt="Drifting" src="./public/background.png">
+  <img alt="Drifting" src="./public/background.jpg">
 </p>
 
 ## Introduction
