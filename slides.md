@@ -169,3 +169,17 @@ into their data and ML systems. With WhyLabs, users can ensure the reliability o
 and debug any problems that arise with them.
 
 <img src="/flask_whylogs_whylabs_flow.jpeg" alt="/flask_whylogs_whylabs_flow" class="mx-auto h-60" />
+
+---
+
+## Kolmogorov-Smirnov (K-S) test
+
+The Kolmogorov-Smirnov (K-S) test is a non-parametric statistical test that is used to determine whether two
+sets of data come from the same distribution.
+It is often used to test whether a sample of data comes from a specific population or
+to compare two samples to determine if they come from the same population.
+
+The null hypothesis in this test is that the distributions are the same.
+If this hypothesis is rejected, it suggests that there is a drift in the model.
+
+The K-S test is a useful tool for comparing datasets and determining whether they come from the same distribution.
