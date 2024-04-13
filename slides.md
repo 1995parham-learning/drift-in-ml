@@ -118,3 +118,9 @@ However, in practice they have serious challenges that make measuring drift a ha
 Since we're dealing with online drift detection (i.e. detecting drift in live production
 data as opposed to past batch data),
 we can employ either a _fixed or sliding window_ approach to identify our set of points for comparison.
+
+<img src="/detecting-changes-using-a-sliding-reference-window.png"
+alt="detecting-changes-using-a-sliding-reference-window" />
+
+Detecting changes using a sliding reference window.
+Change occurs at time `t` if the **reference window** is statistically different from the **test window**.
