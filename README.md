@@ -6,6 +6,9 @@
 
 ## Introduction
 
+Let's delve into machine learning drift, including target drift, data drift, and concept drift, to gain a deeper understanding of how these variations can impact model performance.
+Following that, we can explore potential solutions to implement drift detection in a production-grade project.
+
 ## Welcome to [Slidev](https://github.com/slidevjs/slidev)!
 
 To start the slide show:
