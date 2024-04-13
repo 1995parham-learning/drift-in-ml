@@ -187,3 +187,13 @@ The null hypothesis in this test is that the distributions are the same.
 If this hypothesis is rejected, it suggests that there is a drift in the model.
 
 The K-S test is a useful tool for comparing datasets and determining whether they come from the same distribution.
+
+---
+
+## Drift Detection in Seldon Core
+
+The general framework shown is to use the Seldon Core payload logger to pass requests to components that
+process them asynchronously. The results can be passed onwards to alerting systems.
+
+Logging of request and response payloads from your Seldon Deployment can be accomplished by adding a _logging section_
+to any part of the Seldon deployment graph.
