@@ -134,3 +134,36 @@ Change occurs at time `t` if the **reference window** is statistically different
 > A machine learning package for streaming data in Python
 
 <img src="/scikit-multiflow_map.png" alt="scikit-multiflow_map" class="mx-auto" />
+
+---
+
+## Why logs?
+
+`whylogs` is an open source library for logging any kind of data. With `whylogs`, users are able
+to generate summaries of their datasets (called `whylogs` profiles) which they can use to:
+
+1. Track changes in their dataset
+2. Create data constraints to know whether their data looks the way it should
+3. Quickly visualize key summary statistics about their datasets
+
+These three functionalities enable a variety of use cases for data scientists,
+machine learning engineers, and data engineers:
+
+- Detect data drift in model input features
+- Detect training-serving skew, concept drift, and model performance degradation
+- Validate data quality in model inputs or in a data pipeline
+- Perform exploratory data analysis of massive datasets
+- Track data distributions & data quality for ML experiments
+- Enable data auditing and governance across the organization
+- Standardize data documentation practices across the organization
+
+---
+
+## Why logs? (Cont'd)
+
+WhyLabs is a managed service offering built for helping users make the most of their `whylogs` profiles.
+With WhyLabs, users can ingest profiles and set up automated monitoring as well as gain full observability
+into their data and ML systems. With WhyLabs, users can ensure the reliability of their data and models,
+and debug any problems that arise with them.
+
+<img src="/flask_whylogs_whylabs_flow.jpeg" alt="/flask_whylogs_whylabs_flow" class="mx-auto h-60" />
