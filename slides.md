@@ -90,6 +90,8 @@ inputs and outputs are no longer relevant_. Concept drift can be something that 
 - Abruptly as a result of an external event
 - Periodically as a result of recurring event
 
+<img src="/concept-drift.png" alt="concept-drift" class="mx-auto h-60" />
+
 ---
 
 ## Identifying drift
