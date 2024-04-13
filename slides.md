@@ -197,3 +197,9 @@ process them asynchronously. The results can be passed onwards to alerting syste
 
 Logging of request and response payloads from your Seldon Deployment can be accomplished by adding a _logging section_
 to any part of the Seldon deployment graph.
+
+The specification is:
+
+- `url`: Any URL. Optional. If not provided then it will default to the default [KNative](https://knative.dev/docs/) broker
+  in the namespace of the Seldon Deployment.
+- `mode`: Either `request`, `response` or `all`
