@@ -43,6 +43,10 @@ Different types of issues that can cause our model's performance to decay (**mod
     <img alt="feature-drift" src="/feature-drift.png" class="rounded shadow h-60 basis-1/4" />
 </div>
 
+- Data drift: P(X)
+- Target drift: P(Y)
+- Concept drift: P(Y|X)
+
 ---
 
 ## Data drift
