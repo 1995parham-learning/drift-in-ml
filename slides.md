@@ -192,7 +192,7 @@ The K-S test is a useful tool for comparing datasets and determining whether the
 
 ## Drift Detection in Seldon Core
 
-The general framework shown is to use the Seldon Core payload logger to pass requests to components that
+The general framework shown is to use the Seldon Core **payload logger** to pass requests to components that
 process them asynchronously. The results can be passed onwards to alerting systems.
 
 Logging of request and response payloads from your Seldon Deployment can be accomplished by adding a _logging section_
