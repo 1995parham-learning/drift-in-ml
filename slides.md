@@ -174,7 +174,7 @@ and debug any problems that arise with them.
 
 ## Kolmogorov-Smirnov (K-S) test
 
-The Kolmogorov-Smirnov (K-S) test is a non-parametric statistical test that is used to determine whether two
+The Kolmogorov-Smirnov (K-S) test is a _non-parametric statistical test_ that is used to determine whether two
 sets of data come from the same distribution.
 It is often used to test whether a sample of data comes from a specific population or
 to compare two samples to determine if they come from the same population.
