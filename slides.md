@@ -124,3 +124,13 @@ alt="detecting-changes-using-a-sliding-reference-window" />
 
 Detecting changes using a sliding reference window.
 Change occurs at time `t` if the **reference window** is statistically different from the **test window**.
+
+---
+
+## SciKit MultiFlow
+
+<img src="/skmultiflow-logo-wide.svg" alt="skmultiflow-logo-wide" class="bg-white mx-auto" />
+
+> A machine learning package for streaming data in Python
+
+<img src="/scikit-multiflow_map.png" alt="scikit-multiflow_map" class="mx-auto" />
