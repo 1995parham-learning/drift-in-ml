@@ -1,0 +1,11 @@
+apiVersion: mlops.seldon.io/v1alpha1
+kind: Model
+metadata:
+  labels:
+    app.kubernetes.io/instance: seldon-core-v2-models
+  name: nostra
+spec:
+  requirements:
+  - sklearn
+  secretName: seldon-minio-secret
+  storageUri: s3://seldon/nostra

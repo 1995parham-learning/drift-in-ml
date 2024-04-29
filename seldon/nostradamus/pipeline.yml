@@ -1,0 +1,14 @@
+---
+apiVersion: mlops.seldon.io/v1alpha1
+kind: Pipeline
+metadata:
+  name: nostra-chain
+spec:
+  steps:
+    - name: nostra
+    - name: nostra
+      inputs:
+      - nostra
+  output:
+    steps:
+    - nostra
